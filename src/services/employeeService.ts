@@ -1,4 +1,4 @@
-import { Employee } from "../types/Empolyee";
+import { Employee } from "../types/Employee";
 
 export class EmployeeService {
   private employees: Employee[] = [];
