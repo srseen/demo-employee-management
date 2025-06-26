@@ -2,14 +2,14 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/", (req, res) => {});
+router.get("/");
 
-router.get("/:id", (req, res) => {});
+router.get("/:id");
 
-router.post("/", (req, res) => {});
+router.post("/");
 
-router.put("/:id", (req, res) => {});
+router.put("/:id");
 
-router.delete("/:id", (req, res) => {});
+router.delete("/:id");
 
 export default router;
